@@ -1,0 +1,13 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{\numberline {I}Introduzione}{3}{chapter.1}% 
+\contentsline {chapter}{\numberline {II}Titolo Capitolo 2}{8}{chapter.2}% 
+\contentsline {section}{\numberline {II.1}Introduzione}{8}{section.2.1}% 
+\contentsline {section}{\numberline {II.2}Altra sezione}{9}{section.2.2}% 
+\contentsline {subsection}{\numberline {II.2.1}Sotto sotto sezione}{9}{subsection.2.2.1}% 
+\contentsline {chapter}{\numberline {III}Titolo}{10}{chapter.3}% 
+\contentsline {chapter}{\numberline {IV}cap 4}{11}{chapter.4}% 
+\contentsline {chapter}{\numberline {V}Cap5 }{12}{chapter.5}% 
+\contentsline {chapter}{\numberline {VI}Conclusioni}{13}{chapter.6}% 
+\contentsline {chapter}{Bibliografia}{14}{chapter.6}% 
+\contentsline {chapter}{\hbox to\@tempdima {\hfil }Elenco delle figure}{16}{chapter*.3}% 

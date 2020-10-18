@@ -1,0 +1,163 @@
+% Aggiornare in questo file la sezione Struttura Tesi in funzione dei capitoli della tesi e della presenza o meno di appendice. Si possono aggiungere o togliere capitoli. Si possono avere piu' appendici.
+
+%% Struttura documento %% 
+
+\documentclass[12pt,a4paper,oneside]{book}
+
+%********************************************************************
+% ** NUOVI PACKAGE **
+%********************************************************************
+%\usepackage{hyperref}
+%\usepackage{amssymb}
+%\usepackage{graphicx}
+%\usepackage{subfigure}
+%\usepackage{latexsym}
+%\usepackage{amsfonts}
+%\usepackage[english]{babel}
+%\usepackage[latin1]{inputenc}
+%\usepackage{verbatim}
+%\usepackage{booktabs}
+%\usepackage{multirow}
+%\usepackage{colortbl}
+%\usepackage{amsmath}
+%\usepackage{bm}
+%
+%\usepackage{vmargin}
+%\usepackage{setspace}
+%\usepackage{indentfirst}
+%\singlespacing
+%\graphicspath{{./imgs/}}
+
+%********************************************************************
+% ** VECCHI PACKAGE **
+%********************************************************************
+\usepackage{vmargin}
+\usepackage{textcomp}
+%\usepackage{amssymb}
+\usepackage[cmex10]{amsmath}
+\usepackage{amssymb}
+\newtheorem{Theorem}{Theorem}
+\usepackage{wasysym}
+%\usepackage[dvips,colorlinks=true]{hyperref}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\singlespacing
+%\hypersetup{
+	%bookmarksnumbered=true,
+	%linkcolor=black,
+	%citecolor=black,
+	%pagecolor=black,
+	%urlcolor=black,
+%}
+
+%%%%%% il seguente package facilit� l'uso di caratteri con accento. Mentre [Applemac] � per   Mac, [latin1] e [utf8x] sono per Windows e Linux, rispettivamente. Scegliere fra questi package in base al proprio sistema operativo. 
+
+%\usepackage[applemac]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage[utf8x]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+%\usepackage[english]{babel}
+\usepackage{ae}	
+\usepackage{verbatim}
+\usepackage{alltt}
+
+%% Gestione figure %%
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+%% Gestione tabelle %%
+\usepackage{booktabs}
+
+% il seguente comando specifica il path in cui sono contenute le figure
+\graphicspath{{./imgs/}}
+
+\usepackage{subfigure}
+%\usepackage[bf]{caption2}
+%********************************************************************
+
+\setmarginsrb{30mm}{30mm}{30mm}{30mm}
+             		  {0mm}{0.5cm}{0mm}{0.5cm}
+             		  
+             		  %{0mm}{0mm}{0mm}{0mm}
+
+% margini
+%\setpapersize{A4}
+%\setmarginsrb{3.5cm}{2.5cm}{2.5cm}{2cm}{0mm}{0.9cm}{0mm}{6mm}
+ % {<leftmargin>} {<topmargin>} {<rightmargin>} {<bottommargin>} {<headheight>} {<headsep>} {<footheight>} {<footskip>}
+%\pagestyle{headings}
+
+
+% regola l'interlinea
+\linespread{1.5}
+
+
+\pagestyle{fancy}
+\lhead{
+\includegraphics[height=1cm]{logokore.eps}
+}
+
+%% Aggiornare titolo tesi e nome %%
+\lhead{\bfseries{\emph{Abbreviazione titolo tesi}}}
+\rhead{\bfseries Nome Cognome Laureando}
+\lfoot{}
+\cfoot{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancypagestyle{plain}{
+\renewcommand{\headrulewidth}{0.4pt}}
+\usepackage{multirow}
+\def\thechapter{\Roman{chapter}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Struttura tesi %%
+
+\begin{document}
+	\renewcommand{\figurename}{Fig.}
+	% input permette di importare un file tex avente il nome indicato
+	\input{frontespizio}
+
+	%\input{dedica}
+
+	\pagestyle{fancy}
+
+	%\input{riassunto}
+	\input{abstract}
+
+   \pagestyle{fancy}
+  \tableofcontents
+	
+	%\addcontentsline{toc}{chapter}{Introduction} 
+	% serve per inserire nel sommario una voce non numerata
+	%\addcontentsline{toc}{chapter}{Introduction}
+	
+	%\input{introduzione}
+	
+	\input{capitolo1}
+	
+	\input{capitolo2}
+	
+	\input{capitolo3}
+	
+	\input{capitolo4}
+
+	\input{capitolo5}
+	
+	%\addcontentsline{toc}{chapter}{Conclusions}
+	\input{conclusioni}
+	
+  \newpage
+  \addcontentsline{toc}{chapter}{Bibliografia}
+  \bibliographystyle{ieeetr}
+  %\bibliography{bibliografia}
+	%\bibliographystyle{mdpi}  
+  \bibliography{mybibfile}
+
+	\appendix
+	%\input{appendice}
+   \addcontentsline{toc}{chapter}{\numberline{}\listfigurename}
+    \listoffigures
+    \newpage
+   %\input{consenso}
+\end{document}

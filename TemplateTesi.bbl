@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{Fortino2014}
+G.~Fortino, A.~Guerrieri, W.~Russo, and C.~Savaglio, {\em Middlewares for Smart
+  Objects and Smart Environments: Overview and Comparison}, pp.~1--27.
+\newblock Cham: Springer International Publishing, 2014.
+
+\bibitem{GUBBI20131645}
+J.~Gubbi, R.~Buyya, S.~Marusic, and M.~Palaniswami, ``Internet of things (iot):
+  A vision, architectural elements, and future directions,'' {\em Future
+  Generation Computer Systems}, vol.~29, no.~7, pp.~1645 -- 1660, 2013.
+
+\bibitem{fortino2014internet}
+G.~Fortino and P.~Trunfio, {\em Internet of Things based on smart objects}.
+\newblock Springer, 2014.
+
+\bibitem{fortino2014integration}
+G.~Fortino, A.~Guerrieri, W.~Russo, and C.~Savaglio, ``Integration of
+  agent-based and cloud computing for the smart objects-oriented iot,'' in {\em
+  Computer Supported Cooperative Work in Design (CSCWD), Proceedings of the
+  2014 IEEE 18th International Conference on}, pp.~493--498, IEEE, 2014.
+
+\bibitem{8000145}
+P.~D. Meo, F.~Messina, M.~N. Postorino, D.~Rosaci, and G.~M.~L. Sarné, ``A
+  reputation framework to share resources into iot-based environments,'' in
+  {\em 2017 IEEE 14th International Conference on Networking, Sensing and
+  Control (ICNSC)}, pp.~513--518, May 2017.
+
+\bibitem{ashton2009internet}
+K.~Ashton, ``That ‘internet of things’ thing,'' {\em RFiD Journal},
+  vol.~22, no.~7, 2009.
+
+\bibitem{swan2012sensor}
+M.~Swan, ``Sensor mania! the internet of things, wearable computing, objective
+  metrics, and the quantified self 2.0,'' {\em Journal of Sensor and Actuator
+  Networks}, vol.~1, no.~3, pp.~217--253, 2012.
+
+\bibitem{SINTEF+S13363}
+O.~Vermesan, H.~Mark, V.~Harald, K.~Kostas, T.~Maurizio, W.~Karel, G.~Sergio,
+  and H.~Stephan, ``Internet of things strategic research roadmap,'' 2009.
+
+\bibitem{gubbi2013internet}
+J.~Gubbi, R.~Buyya, S.~Marusic, and M.~Palaniswami, ``Internet of things (iot):
+  A vision, architectural elements, and future directions,'' {\em Future
+  generation computer systems}, vol.~29, no.~7, pp.~1645--1660, 2013.
+
+\bibitem{morin2017comparison}
+A.~Morin, M.~Maman, R.~Guizzetti, and A.~Duda, ``Comparison of the device
+  lifetime in wireless networks for the internet of things,'' {\em IEEE
+  Access}, vol.~5, pp.~7097--7114, 2017.
+
+\bibitem{ieee2003ieee}
+IEEE, ``Ieee standard for local and metropolitan area networks—part 15.4:
+  Low-rate wireless personal area networks (lr-wpans),'' 2003.
+
+\bibitem{5982548}
+S.~Tozlu, ``Feasibility of wi-fi enabled sensors for internet of things,'' in
+  {\em 2011 7th International Wireless Communications and Mobile Computing
+  Conference}, pp.~291--296, July 2011.
+
+\bibitem{ieee1999part11}
+IEEE, ``Ieee standard 802.11: Wireless lan medium access control (mac) and
+  physical layer (phy) specifications,'' 1999.
+
+\bibitem{Bluetooth502016}
+IEEE, ``Specification of bluetooth core v5.0,'' vol.~0, December 2016.
+
+\bibitem{7558107}
+``Ieee draft standard for information technology-telecommunications and
+  information exchange between systems-local and metropolitan area
+  networks-specific requirements-part 11: Wireless lan medium access control
+  (mac) and physical layer (phy) specifications: Amendment 2: Sub 1 ghz license
+  exempt operation,'' {\em IEEE P802.11ah/D9.0, August 2016}, pp.~1--660, Jan
+  2016.
+
+\bibitem{LoRa2017}
+LoRa, ``Lora alliance website accessed on 2017-1-10. [online]. available:
+  http://lora-alliance.org/,'' January 2017.
+
+\bibitem{SIGFOX2017}
+SIGFOX, ``Sigfox website accessed on 2017-1-10. [online]. available:
+  http://www.sigfox.com/en/,'' January 2017.
+
+\bibitem{banos2016ieee}
+V.~Ba{\~n}os-Gonzalez, M.~S. Afaqui, E.~Lopez-Aguilera, and E.~Garcia-Villegas,
+  ``Ieee 802.11 ah: a technology to face the iot challenge,'' {\em Sensors},
+  vol.~16, no.~11, p.~1960, 2016.
+
+\bibitem{7000982}
+T.~Adame, A.~Bel, B.~Bellalta, J.~Barcelo, and M.~Oliver, ``Ieee 802.11ah: the
+  wifi approach for m2m communications,'' {\em IEEE Wireless Communications},
+  vol.~21, pp.~144--152, December 2014.
+
+\bibitem{7101216}
+S.~Aust, R.~V. Prasad, and I.~G. M.~M. Niemegeers, ``Outdoor long-range wlans:
+  A lesson for ieee 802.11ah,'' {\em IEEE Communications Surveys Tutorials},
+  vol.~17, pp.~1761--1775, thirdquarter 2015.
+
+\bibitem{sun2013ieee}
+W.~Sun, M.~Choi, and S.~Choi, ``Ieee 802.11 ah: A long range 802.11 wlan at sub
+  1 ghz,'' {\em Journal of ICT Standardization}, vol.~1, no.~1, pp.~83--108,
+  2013.
+
+\end{thebibliography}
