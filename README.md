@@ -4,7 +4,7 @@ LaTeX template for academic thesis statement.
 ## How to run this template?
 1. Download the LaTex compiler: [LaTex Web Site](https://www.latex-project.org/get/)
 
-2. Sownload a development environment (for example: http://www.texstudio.org)
+2. Download a development environment (for example: http://www.texstudio.org)
 
 3. Open the main file contained in the archive (TemplateTesi.tex)
 
