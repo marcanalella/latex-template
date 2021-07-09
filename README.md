@@ -1,4 +1,4 @@
-# LaTeX template
+# Thesis LaTeX template
 LaTeX template for academic thesis statement. 
 
 ## How to run this template?
